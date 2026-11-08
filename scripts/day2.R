@@ -187,4 +187,3 @@ file.size("results/pbmc3k_annotated.rds") / 1e6
 
 pbmc2 <- readRDS("results/pbmc3k_annotated.rds")
 identical(Idents(pbmc2), Idents(pbmc))
-
