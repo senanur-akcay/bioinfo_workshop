@@ -113,3 +113,4 @@ ggplot(filter(annot, !is.na(gnomad_af)), aes(gnomad_af)) +
   labs(x = "allele frequency in gnomAD v4.1 genomes (log scale)", y = "variants",
        title = "How common are this person's variants?") +
   theme_bw()
+
