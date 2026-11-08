@@ -114,3 +114,4 @@ ggplot(filter(annot, !is.na(gnomad_af)), aes(gnomad_af)) +
        title = "How common are this person's variants?") +
   theme_bw()
 
+

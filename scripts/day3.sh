@@ -210,3 +210,4 @@ samtools tview -d T -w 100 -p chr20:$((fp - 40)) results/align/NA12878.bam resul
 git add scripts/
 git commit -m "Day 3: variant analysis"
 git push
+
